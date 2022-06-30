@@ -1,0 +1,86 @@
+! TRAVIS input file
+! Created with TRAVIS version compiled at Dec  1 2021 19:56:16
+! Source code version: May 21 2021
+! Input file written at Thu Dec  9 13:33:27 2021.
+! Use the advanced mode until the analysis selection menu (y/n)? [no] 
+yes
+! Use periodic boundary conditions (0=no, x, y, z, xy, xz, xyz)? [xyz]
+xyz
+! Use time-dependent cell vector (NPT ensemble) (y/n)? [no] 
+no
+! Is the simulation cell non-orthorhombic (cell angles other than 90 deg) (y/n)? [no] 
+yes
+! Enter three cell vectors (y) or three edge lengths and angles (n)? [no] 
+no
+! Enter length of cell vector A in pm: 
+1622.1
+! Enter length of cell vector B in pm: 
+1656.5
+! Enter length of cell vector C in pm: 
+8517.7
+! Enter angle Alpha (between B and C) in deg: [90.0] 
+93.7000
+! Enter angle Beta  (between A and C) in deg: [90.0] 
+89.800
+! Enter angle Gamma (between A and B) in deg: [90.0] 
+60.9300
+! Should the periodic box be multiplied (y/n)? [no] 
+yes
+! Replicate the box n times in X direction: [2] 
+2
+! Replicate the box n times in Y direction: [2] 
+2
+! Replicate the box n times in Z direction: [2] 
+1
+! Execute molecule recognition for which time step (-1 = disable)? [0] 
+
+! Use spatial domain decomposition for faster mol. rec. (disable if there are problems) (y/n)? [yes] 
+
+! Use refined topological atom ordering (can take very long for large molecules) (y/n)? [yes] 
+
+! Show bond matrices only for first representant of each molecule type (y/n)? [yes] 
+
+! Show only bonds in the bond matrices (y/n)? [yes] 
+
+! Create images of the structural formulas (y/n)? [no] 
+yes
+yes
+10
+! Accept these molecules (y) or change something (n)? [yes] 
+
+! Molecule 1 (C31H18O6): Is this an infinite polymer/lattice (y/n)? [yes] 
+no
+! Change the atom ordering in some molecule (y/n)? [no] 
+
+! Define additional virtual atoms (y/n)? [no] 
+
+! Do you want to define pseudo-molecules (y/n)? [no] 
+
+! Which functions to compute (comma separated)?
+proc
+! Use the advanced mode for the main part (y/n)? [no] 
+
+! Write also virtual atoms (center of mass, ...) (y/n)? [no] 
+
+! Put the center of the system to (0|0|0) (0), to (x/2|y/2|z/2) (1), or leave coords unchanged (2)? [1] 
+0
+! Put a specific atom into the box center (y/n)? [no] 
+
+! Save all atoms in the system (y/n)? [yes] 
+yes
+! Try to unwrap the trajectory (y/n)? [no] 
+yes
+! Write "orthonormalized" coordinates (y/n)? [no] 
+
+! Change atom labels of some atoms in output trajectory (y/n)? [no] 
+
+! Remove center of mass movement of the box (y/n)? [no] 
+yes
+! Skip repeated time steps (y/n)? [no] 
+
+! In which trajectory frame to start processing the trajectory? [1] 
+
+! How many trajectory frames to read (from this position on)? [all] 
+
+! Use every n-th read trajectory frame for the analysis: [1] 
+10

@@ -1,0 +1,104 @@
+! TRAVIS input file
+! Created with TRAVIS version compiled at Dec  1 2021 19:56:16
+! Source code version: May 21 2021
+! Input file written at Thu Dec  9 13:33:27 2021.
+! Use the advanced mode until the analysis selection menu (y/n)? [no] 
+yes
+! Use periodic boundary conditions (0=no, x, y, z, xy, xz, xyz)? [xyz]
+xyz
+! Use time-dependent cell vector (NPT ensemble) (y/n)? [no] 
+no
+! Is the simulation cell non-orthorhombic (cell angles other than 90 deg) (y/n)? [no] 
+yes
+! Enter three cell vectors (y) or three edge lengths and angles (n)? [no] 
+no
+! Enter length of cell vector A in pm: 
+1622.1
+! Enter length of cell vector B in pm: 
+1656.5
+! Enter length of cell vector C in pm: 
+8517.7
+! Enter angle Alpha (between B and C) in deg: [90.0] 
+93.7000
+! Enter angle Beta  (between A and C) in deg: [90.0] 
+89.800
+! Enter angle Gamma (between A and B) in deg: [90.0] 
+60.9300
+! Should the periodic box be multiplied (y/n)? [no] 
+no
+! Execute molecule recognition for which time step (-1 = disable)? [0] 
+
+! Use spatial domain decomposition for faster mol. rec. (disable if there are problems) (y/n)? [yes] 
+no
+! Use refined topological atom ordering (can take very long for large molecules) (y/n)? [yes] 
+yes
+! Show bond matrices only for first representant of each molecule type (y/n)? [yes] 
+
+! Show only bonds in the bond matrices (y/n)? [yes] 
+
+! Create images of the structural formulas (y/n)? [no] 
+yes
+! Render structural formulas only for first molecule of each kind (y) or for all molecules (n)? [yes] 
+yes
+! How many iterations to perform for formula optimization? [10] 
+10
+! Accept these molecules (y) or change something (n)? [yes] 
+yes
+! Molecule 1 (C31H18O6): Is this an infinite polymer/lattice (y/n)? [yes] 
+yes
+! Change the atom ordering in some molecule (y/n)? [no] 
+
+! Define additional virtual atoms (y/n)? [no] 
+
+! Do you want to define pseudo-molecules (y/n)? [no] 
+
+! Which functions to compute (comma separated)?
+adf
+! Use the advanced mode for the main part (y/n)? [no] 
+n
+! Which of the molecules should be the reference molecule (C31H18O6=1, H2O=2)? 
+1
+! Perform this observation intramolecular (within the reference molecule) (0) or intermolecular (1)? [1] 
+0
+! Should the 1. vector depict position (1), dipole (2), velocity (3) or force (4)? [1] 
+1
+! Should the 2. vector depict position (1), dipole (2), velocity (3) or force (4)? [1] 
+1
+! Should the 1. vector connect 2 points (0) or stand perpendicular to 3 points (1)? [0] 
+
+! Please enter the atom(s) at the base point (e.g. C7):
+C2
+! Please enter the atom(s) at the tip point (e.g. C7):
+C1
+! Should the 2. vector connect 2 points (0) or stand perpendicular to 3 points (1)? [0] 
+0
+! Please enter the atom(s) at the base point (e.g. C7):
+C14
+! Please enter the atom(s) at the tip point (e.g. C7):
+C13
+! Enter minimal angle between the vectors: [0 deg] 
+0
+! Enter maximal angle between the vectors: [180 deg] 
+180
+! Please enter the resolution (bin count) for this ADF: [100] 
+180
+! Save temporal development for this observation (y/n)? [no] 
+y
+! Enter the physical time distance between successive trajectory frames in fs: [0.5] 
+20
+! Create combined development/histogram-plots for 2D analyses (y/n)? [yes] 
+yes
+! Use grey tones for combined plot (y) or standard colors (n)? [no] 
+
+! Save development for which rep. of the reference molecule (e.g. 1,3-7)? [1]
+1-8
+! Add another observation (y/n)? [no] 
+
+! Skip repeated time steps (y/n)? [no] 
+
+! In which trajectory frame to start processing the trajectory? [1] 
+
+! How many trajectory frames to read (from this position on)? [all] 
+
+! Use every n-th read trajectory frame for the analysis: [1] 
+
